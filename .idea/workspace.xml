@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142cf50f-d067-4718-8d43-6f4d837b099e" name="Changes" comment="1.0 first commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/ExpressionEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ExpressionEvaluatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ba/etf/unsa/rpr/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ba/etf/unsa/rpr/ExpressionEvaluatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ba/etf/unsa/rpr/ExpressionEvaluatorrTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/IdeaProjects/rpr-zadaca1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/ASUS/IdeaProjects/rpr-zadaca1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -143,8 +135,15 @@
       <workItem from="1668553202447" duration="7787000" />
       <workItem from="1668625458135" duration="35000" />
       <workItem from="1668787245486" duration="915000" />
-      <workItem from="1668884927996" duration="370000" />
+      <workItem from="1668884927996" duration="1249000" />
     </task>
+    <task id="LOCAL−00001" summary="1.0 first commit">
+      <created>1668885551084</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1668885551084</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
