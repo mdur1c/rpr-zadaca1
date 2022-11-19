@@ -7,6 +7,12 @@ public class ExpressionEvaluator {
     private static Stack<Double> values;
     private static final RuntimeException e_arg = new RuntimeException("Argument not valid");
 
+    /**
+     * Method used to evaluate expression with Dijkstra algorithm
+     * @param expr string containing expression
+     * @return expression result
+     * @throws RuntimeException exception thrown if the given argument is not valid
+     */
     public static Double evaluate(String expr) throws RuntimeException {
         Stack<String> operators = new Stack<String>();
         Stack<Double> values = new Stack<Double>();

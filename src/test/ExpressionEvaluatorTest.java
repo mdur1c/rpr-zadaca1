@@ -1,88 +1,68 @@
 package ba.etf.unsa.rpr;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class ExpressionEvaluatorTest {
-
-    /**
-     * Testira rad za sabiranje (sa racionalnim brojem)
-     */
-    @Test
-    void evaluate1() {
-        assertEquals(ExpressionEvaluator.evaluate("( 2.5 + 3 )"), 5.5D);
+    ExpressionEvaluatorTest() {
     }
 
-    /**
-     * Testira operatore * i -
-     */
     @Test
-    void evaluate2() {
-        assertEquals(3D, ExpressionEvaluator.evaluate("( ( ( 2 + 3 ) * 3 ) - 12 )"));
+    void test1() {
+        Assertions.assertEquals(ExpressionEvaluator.evaluate("( 2.8 + 3 )"), 5.8);
     }
 
-    /**
-     * Testira operator / i mix drugih operacija
-     */
     @Test
-    void evaluate3() {
-        assertEquals(13.5D, ExpressionEvaluator.evaluate("( 27 / ( ( ( 2 + 3 ) * 3 ) - 13 ) )"));
+    void test2() {
+        Assertions.assertEquals(13.5, ExpressionEvaluator.evaluate("( 27 / ( ( ( 2 + 3 ) * 3 ) - 13 ) )"));
     }
 
-    /**
-     * Testira sqrt funkciju
-     */
     @Test
-    void evaluate4() {
-        assertEquals(5D, ExpressionEvaluator.evaluate("( sqrt ( ( ( 2 + 3 ) * 3 ) + 10 ) )"));
+    void test3() {
+        Assertions.assertEquals(3.0, ExpressionEvaluator.evaluate("( sqrt ( ( ( 2 + 1 ) * 3 ) + 0 ) )"));
     }
 
-    /**
-     * Testira izuzetak za nepostojeci operator
-     */
     @Test
-    void evaluate5() {
-        assertThrows(RuntimeException.class, () -> ExpressionEvaluator.evaluate("( 2 # 3 )"));
+    void test4() {
+        Assertions.assertThrows(RuntimeException.class, () -> {
+            ExpressionEvaluator.evaluate("( 2 # 3 )");
+        });
     }
 
-    /**
-     * Testira izuzetak za nepostojeci broj
-     */
     @Test
-    void evaluate6() {
-        assertThrows(RuntimeException.class, () -> ExpressionEvaluator.evaluate("( 2 + # )"));
+    void test5() {
+        Assertions.assertEquals(3.0, ExpressionEvaluator.evaluate("( ( ( 2 + 3 ) * 3 ) - 12 )"));
     }
 
-    /**
-     * Testira izuzetak za argument bez razmaka gdje treba biti
-     */
     @Test
-    void evaluate7() {
-        assertThrows(RuntimeException.class, () -> ExpressionEvaluator.evaluate("(2 + 3 )"));
+    void test6() {
+        Assertions.assertThrows(RuntimeException.class, () -> {
+            ExpressionEvaluator.evaluate("( 2 + # )");
+        });
     }
 
-    /**
-     * Testira izuzetak za argument sa suvisnim razmakom
-     */
     @Test
-    void evaluate8() {
-        assertThrows(RuntimeException.class, () -> ExpressionEvaluator.evaluate("(  2 + 3 )"));
+    void test7() {
+        Assertions.assertThrows(RuntimeException.class, () -> {
+            ExpressionEvaluator.evaluate("(99 + 3 )");
+        });
     }
 
-    /**
-     * Testira redoslijed operacija sa zagradama
-     */
     @Test
-    void evaluate9() {
-        assertEquals(0.6D, ExpressionEvaluator.evaluate("( ( 7 + 3 ) * ( 4 + 2 ) / ( 9 + 1 ) )"));
+    void test8() {
+        Assertions.assertThrows(RuntimeException.class, () -> {
+            ExpressionEvaluator.evaluate("(  2 + 9 )");
+        });
     }
 
-    /**
-     * Testira operator stepena ^
-     */
     @Test
-    void evaluate10() {
-        assertEquals(128D, ExpressionEvaluator.evaluate("( ( 2 ^ 3 ) * ( 4 ^ 2 ) )"));
+    void test9() {
+        Assertions.assertEquals(0.6, ExpressionEvaluator.evaluate("( ( 7 + 3 ) * ( 4 + 2 ) / ( 9 + 1 ) )"));
+    }
+
+    @Test
+    void test10() {
+        Assertions.assertEquals(128.0, ExpressionEvaluator.evaluate("( ( 2 ^ 3 ) * ( 4 ^ 2 ) )"));
     }
 }
+
