@@ -58,6 +58,11 @@
       <recent name="ba.etf.unsa.rpr" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.All in rpr-zadaca1">
     <configuration name="All in rpr-zadaca1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpr-zadaca1" />
