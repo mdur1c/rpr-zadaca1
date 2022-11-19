@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142cf50f-d067-4718-8d43-6f4d837b099e" name="Changes" comment="1.6.1 updated gitignore for redundancy">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/ExpressionEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ba/etf/unsa/rpr/ExpressionEvaluator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ExpressionEvaluatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ExpressionEvaluatorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="142cf50f-d067-4718-8d43-6f4d837b099e" name="Changes" comment="2.0 added javadoc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +136,7 @@
       <workItem from="1668553202447" duration="7787000" />
       <workItem from="1668625458135" duration="35000" />
       <workItem from="1668787245486" duration="915000" />
-      <workItem from="1668884927996" duration="2087000" />
+      <workItem from="1668884927996" duration="2447000" />
     </task>
     <task id="LOCAL−00001" summary="1.0 first commit">
       <created>1668885551084</created>
@@ -167,7 +162,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1668886489211</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="2.0 added javadoc">
+      <created>1668887228920</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1668887228920</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +190,7 @@
     <MESSAGE value="1.5 updated pom.xml and gitignore" />
     <MESSAGE value="1.6 adding target" />
     <MESSAGE value="1.6.1 updated gitignore for redundancy" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.6.1 updated gitignore for redundancy" />
+    <MESSAGE value="2.0 added javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.0 added javadoc" />
   </component>
 </project>
